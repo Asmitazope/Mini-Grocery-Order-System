@@ -2,9 +2,9 @@
 {
     public class Product
     {
-        public int Id { get; set; } = 1;
-        public string? Name { get; set; } = "Laptop";
-        public decimal? Price { get; set; } = 50000;
-        public int Stock { get; set; } = 50;
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public decimal? Price { get; set; }
+        public int Stock { get; set; }
     }
 }
