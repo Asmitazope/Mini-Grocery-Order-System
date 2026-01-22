@@ -18,16 +18,16 @@ namespace MiniGroceryOrderSystem.API.Services
             productRepository = product;
             orderRepository = order;
         }
-        public async Task<IActionResult> PlaceOrders(int productId, int quantity)
+        public async Task PlaceOrders(int productId, int quantity)
         {
             using var dbOp = await _context.Database.BeginTransactionAsync();
 
             var product = await productRepository.GetById(productId);
 
-            if (product == null) 
+            if (product == null)
                 throw new Exception("Product not found");
 
-            if(product.Stock<=0)
+            if (product.Stock <= 0)
                 throw new Exception("Out of stock");
 
             product.Stock -= quantity;
@@ -35,10 +35,10 @@ namespace MiniGroceryOrderSystem.API.Services
 
             var orderRecord = new Order
             {
-                ProductId= productId,
-                Quantity= quantity,
-                TotalPrice=product.Price*quantity,
-                CreatedAt= DateTime.UtcNow,
+                ProductId = productId,
+                Quantity = quantity,
+                TotalPrice = product.Price * quantity,
+                CreatedAt = DateTime.UtcNow,
             };
             await orderRepository.AddOrders(orderRecord);
             await _context.SaveChangesAsync();

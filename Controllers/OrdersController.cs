@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MiniGroceryOrderSystem.API.DTO;
 using MiniGroceryOrderSystem.API.Services;
 
 namespace MiniGroceryOrderSystem.API.Controllers
@@ -18,7 +17,15 @@ namespace MiniGroceryOrderSystem.API.Controllers
         [HttpPost]
         public async Task<IActionResult> SaveOrders(int productID, int quantity)
         {
-
+            try
+            {
+                await _service.PlaceOrders(productID, quantity);
+                return Ok("Order placed successfully");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
