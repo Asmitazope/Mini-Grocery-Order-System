@@ -20,7 +20,7 @@ namespace MiniGroceryOrderSystem.API.Controllers
             try
             {
                 await _service.PlaceOrders(productID, quantity);
-                return Ok("Order placed successfully");
+                return Ok(new { message = "Order placed successfully" });
             }
             catch (Exception ex)
             {

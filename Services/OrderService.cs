@@ -27,7 +27,7 @@ namespace MiniGroceryOrderSystem.API.Services
             if (product == null)
                 throw new Exception("Product not found");
 
-            if (product.Stock <= 0)
+            if (product.Stock <= quantity)
                 throw new Exception("Out of stock");
 
             product.Stock -= quantity;
