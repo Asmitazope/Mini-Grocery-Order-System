@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|c:\\users\\zopep\\onedrive\\desktop\\.net projects\\demo task\\minigroceryordersystem.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|c:\\users\\zopep\\onedrive\\desktop\\.net projects\\demo task\\minigroceryordersystem.api\\demo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|solutionrelative:demo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|c:\\users\\zopep\\onedrive\\desktop\\.net projects\\demo task\\minigroceryordersystem.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9E3556E-DF2A-A697-EBA0-79ED2D158614}|MiniGroceryOrderSystem.API.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T03:24:23.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Demo.http",
+              "DocumentMoniker": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Demo.http",
+              "RelativeDocumentMoniker": "Demo.http",
+              "ToolTip": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Demo.http",
+              "RelativeToolTip": "Demo.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-22T03:23:52.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\zopep\\OneDrive\\Desktop\\.Net Projects\\Demo Task\\MiniGroceryOrderSystem.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T16:58:14.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
